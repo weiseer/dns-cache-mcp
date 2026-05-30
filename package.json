@@ -1,19 +1,41 @@
 {
   "name": "@weiseer/dns-cache-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "mcpName": "io.github.weiseer/dns-cache",
   "description": "DNS/WHOIS/SSL/geo-IP cache MCP server for AI agents.",
   "type": "module",
-  "bin": { "dns-cache-mcp": "./index.js" },
+  "bin": {
+    "dns-cache-mcp": "./index.js"
+  },
   "main": "./index.js",
-  "files": ["index.js", "dns_index.json", "README.md"],
-  "scripts": { "start": "node index.js" },
-  "keywords": ["mcp", "model-context-protocol", "ai-agent", "weiseer"],
+  "files": [
+    "index.js",
+    "dns_index.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "weiseer"
+  ],
   "author": "weiseer <wei@weiseer.com>",
   "license": "Apache-2.0",
-  "repository": { "type": "git", "url": "https://github.com/weiseer/dns-cache-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiseer/dns-cache-mcp.git"
+  },
   "homepage": "https://github.com/weiseer/dns-cache-mcp#readme",
-  "bugs": { "url": "https://github.com/weiseer/dns-cache-mcp/issues" },
-  "engines": { "node": ">=18.0.0" },
-  "dependencies": { "@modelcontextprotocol/sdk": "^0.6.0" }
+  "bugs": {
+    "url": "https://github.com/weiseer/dns-cache-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
 }
